@@ -17,7 +17,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 mmap: arg2 in ~PROT_EXEC || arg2 in ~PROT_WRITE
 munmap: 1
 mprotect: arg2 in ~PROT_EXEC || arg2 in ~PROT_WRITE
@@ -66,13 +65,4 @@ getpid: 1
 ppoll: 1
 rt_sigtimedwait: 1
 madvise: 1
-
-gettid: 1
-gettid: 1
-gettid: 1
-gettid: 1
-gettid: 1
-gettid: 1
-gettid: 1
-gettid: 1
 gettid: 1
